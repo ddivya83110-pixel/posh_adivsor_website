@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <head>
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="https://www.Poshadvisor.in/logo.png">
+
+<!-- Google / SEO -->
+<title>PoSH Advisor - Building Safer Workplaces</title>
+<meta name="description" content="Certified PoSH Advisor, Trainer & Compliance Expert. Founder Sivasakthi Kalaimani & Team.">
+
+<!-- WhatsApp / Facebook / LinkedIn Preview - MAIN FIX -->
+<meta property="og:title" content="PoSH Advisor - Certified PoSH Training & Compliance">
+<meta property="og:description" content="Building Safer, Respectful Workplaces | PoSH Policy, IC Training & Compliance by Sivasakthi Kalaimani">
+<meta property="og:image" content="https://www.Poshadvisor.in/about-banner.jpg">
+<meta property="og:image:secure_url" content="https://www.Poshadvisor.in/about-banner.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://www.Poshadvisor.in/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PoSH Advisor">
+
+<!-- WhatsApp Small Logo (Optional second) -->
+<meta property="og:image" content="https://www.Poshadvisor.in/logo.png">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="PoSH Advisor">
+<meta name="twitter:image" content="https://www.Poshadvisor.in/about-banner.jpg">
+</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PoSH Advisor - Safe & Respectful Workplaces</title>
+  <style>
+    :root {
+      --primary: #0f172a;       /* Deep Navy */
+      --secondary: #0284c7;     /* Vibrant Blue */
+      --accent-cyan: #06b6d4;    /* Cyan Glow */
+      --light-bg: #e0f2fe;      /* Soft Light Blue Background */
+      --card-bg: #ffffff;
+      --text-dark: #0f172a;
+      --text-muted: #334155;
+      --border: #bae6fd;
+      --max-width: 1200px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.5;
+      color: var(--text-dark);
+      background-color: var(--light-bg);
+      /* Light Blue Glowing Gradient Background */
+      background-image: 
+        radial-gradient(at 10% 10%, rgba(6, 182, 212, 0.25) 0px, transparent 50%),
+        radial-gradient(at 90% 90%, rgba(2, 132, 199, 0.25) 0px, transparent 50%),
+        radial-gradient(at 50% 50%, rgba(186, 230, 253, 0.4) 0px, transparent 60%);
+      background-attachment: fixed;
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--secondary);
+    }
+
+    /* TICKER */
+    .ticker-container {
+      background: linear-gradient(90deg, #0f172a, #0284c7, #06b6d4);
+      color: #ffffff;
+      overflow: hidden;
+      white-space: nowrap;
+      padding: 6px 0;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      box-shadow: 0 2px 10px rgba(2, 132, 199, 0.3);
+    }
+
+    .ticker-text {
+      display: inline-block;
+      padding-left: 100%;
+      animation: ticker 35s linear infinite;
+      text-transform: uppercase;
+    }
+
+    @keyframes ticker {
+      0% { transform: translate3d(0, 0, 0); }
+      100% { transform: translate3d(-100%, 0, 0); }
+    }
+
+    /* NAVIGATION HEADER */
+    header {
+      background-color: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 2px solid var(--border);
+    }
+
+    .nav-container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 15px;
+    }
+
+    .logo a {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.logo img {
+  height: 75px;
+  width: auto;
+  object-fit: contain;
+}
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 3px;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+    }
+
+    .nav-links a {
+      color: var(--text-dark);
+      font-size: 0.75rem;
+      font-weight: 700;
+      transition: all 0.25s;
+      cursor: pointer;
+      padding: 6px 10px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+
+    .nav-links a:hover, .nav-links a.active {
+      color: #ffffff;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      box-shadow: 0 2px 12px rgba(2, 132, 199, 0.4);
+    }
+
+    /* CONTAINER */
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 25px 15px;
+    }
+
+    .page-header {
+      background: linear-gradient(135deg, #0f172a, #0284c7);
+      color: #ffffff;
+      padding: 35px 20px;
+      text-align: center;
+      border-radius: 16px;
+      margin-bottom: 25px;
+      box-shadow: 0 8px 25px rgba(2, 132, 199, 0.3);
+    }
+
+    .page-header h1 {
+      font-size: 1.9rem;
+      margin-bottom: 6px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #0f172a 0%, #0284c7 60%, #06b6d4 100%);
+      color: #ffffff;
+      padding: 50px 20px;
+      text-align: center;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(6, 182, 212, 0.35);
+      margin-bottom: 30px;
+    }
+
+    .hero h1 {
+      font-size: 2.1rem;
+      margin-bottom: 12px;
+      font-weight: 800;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 15px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 22px;
+      border-radius: 6px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      border: none;
+      font-size: 0.9rem;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--secondary), var(--accent-cyan));
+      color: #ffffff;
+      box-shadow: 0 4px 15px rgba(6, 182, 212, 0.4);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(6, 182, 212, 0.6);
+    }
+
+    .btn-secondary {
+      background-color: #ffffff;
+      color: var(--primary);
+      border: 2px solid #ffffff;
+    }
+
+    /* GENERAL CARD STYLING WITH LIGHT BLUE GLOW */
+    .card {
+      background: var(--card-bg);
+      border: 1.5px solid var(--border);
+      border-radius: 14px;
+      padding: 22px;
+      box-shadow: 0 6px 20px rgba(2, 132, 199, 0.1);
+      transition: all 0.3s ease-in-out;
+      position: relative;
+    }
+
+    .card:hover {
+      border-color: var(--accent-cyan);
+      box-shadow: 0 10px 28px rgba(2, 132, 199, 0.25), 0 0 20px rgba(6, 182, 212, 0.3);
+      transform: translateY(-3px);
+    }
+
+    .glow-card-highlight {
+      background: linear-gradient(135deg, #ffffff, #f0f9ff);
+      border: 2px solid #7dd3fc;
+      box-shadow: 0 8px 25px rgba(2, 132, 199, 0.2), inset 0 0 15px rgba(186, 230, 253, 0.5);
+    }
+
+    .card.clickable-card {
+      cursor: pointer;
+    }
+
+    .click-hint {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--secondary);
+      background: rgba(2, 132, 199, 0.1);
+      padding: 4px 10px;
+      border-radius: 12px;
+    }
+
+    /* GLOWING FRAMEWORK GRID BOXES */
+    .framework-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+      margin-top: 20px;
+    }
+
+    .framework-box {
+      background: linear-gradient(135deg, #ffffff, #e0f2fe);
+      border: 1.5px solid var(--border);
+      border-radius: 14px;
+      padding: 16px 18px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      cursor: pointer;
+      box-shadow: 0 6px 18px rgba(2, 132, 199, 0.1);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .framework-box:hover {
+      border-color: var(--accent-cyan);
+      transform: translateY(-4px);
+      box-shadow: 0 10px 25px rgba(2, 132, 199, 0.3), 0 0 20px rgba(6, 182, 212, 0.4);
+      background: #ffffff;
+    }
+
+    .icon-glow-big {
+      font-size: 2rem;
+      min-width: 48px;
+      height: 48px;
+      line-height: 48px;
+      text-align: center;
+      background: rgba(2, 132, 199, 0.12);
+      border-radius: 12px;
+      display: inline-block;
+      filter: drop-shadow(0 0 8px rgba(6, 182, 212, 0.8));
+      animation: pulseGlow 2s infinite alternate;
+    }
+
+    .framework-box-title {
+      font-size: 0.98rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    @keyframes pulseGlow {
+      0% { filter: drop-shadow(0 0 4px rgba(2, 132, 199, 0.6)); transform: scale(1); }
+      100% { filter: drop-shadow(0 0 14px rgba(6, 182, 212, 0.9)); transform: scale(1.08); }
+    }
+
+    /* APPROACH GRID */
+    .approach-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 25px;
+    }
+
+    .approach-card {
+      background: #ffffff;
+      border: 1.5px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      text-align: center;
+      box-shadow: 0 6px 18px rgba(2, 132, 199, 0.1);
+      transition: all 0.3s;
+    }
+
+    .approach-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent-cyan);
+      box-shadow: 0 10px 25px rgba(2, 132, 199, 0.25), 0 0 15px rgba(6, 182, 212, 0.3);
+    }
+
+    /* LIGHT BLUE VALUE PILLS WITH GLOW */
+    .value-pills {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 18px 0;
+    }
+
+    .value-pill {
+      background: linear-gradient(135deg, #0f172a, #0284c7);
+      color: #ffffff;
+      padding: 8px 18px;
+      border-radius: 25px;
+      font-weight: 800;
+      font-size: 0.95rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 4px 15px rgba(2, 132, 199, 0.35);
+      letter-spacing: 0.5px;
+    }
+
+    /* CARDS & GRIDS */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 20px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+
+    .topic-icon {
+      font-size: 1.8rem;
+      margin-bottom: 8px;
+      display: inline-block;
+      background: rgba(2, 132, 199, 0.1);
+      width: 44px;
+      height: 44px;
+      line-height: 44px;
+      text-align: center;
+      border-radius: 10px;
+    }
+
+    ul.icon-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul.icon-list li {
+      margin-bottom: 10px;
+      font-size: 0.92rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      line-height: 1.4;
+    }
+
+    /* FORMS */
+    .form-group {
+      margin-bottom: 14px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 600;
+      font-size: 0.88rem;
+      color: var(--primary);
+    }
+
+    .form-group input, .form-group textarea, .form-group select {
+      width: 100%;
+      padding: 9px 12px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 0.9rem;
+      background: #ffffff;
+    }
+
+    /* MODAL */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(15, 23, 42, 0.75);
+      backdrop-filter: blur(5px);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 2000;
+      padding: 15px;
+    }
+
+    .modal-content {
+      background: #ffffff;
+      border-radius: 16px;
+      max-width: 600px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 25px;
+      position: relative;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 12px;
+      right: 18px;
+      font-size: 1.6rem;
+      font-weight: bold;
+      color: var(--primary);
+      cursor: pointer;
+    }
+
+    .tab-view {
+      display: none;
+    }
+
+    .tab-view.active-tab {
+      display: block;
+    }
+
+    #topBtn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: #ffffff;
+      padding: 10px 16px;
+      border-radius: 25px;
+      font-weight: 700;
+      cursor: pointer;
+      font-size: 0.85rem;
+      box-shadow: 0 4px 15px rgba(2, 132, 199, 0.4);
+      z-index: 99;
+    }
+
+    footer {
+      background: var(--primary);
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.85rem;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TICKER -->
+  <div class="ticker-container">
+    <div class="ticker-text">
+      EMPOWERING ORGANISATIONS TO BUILD SAFE, RESPECTFUL & COMPLIANT WORKPLACES &nbsp;&bull;&nbsp; 
+      POSH ADVISOR PROVIDES PROFESSIONAL PREVENTION OF SEXUAL HARASSMENT (POSH) COMPLIANCE, TRAINING, INTERNAL COMMITTEE SUPPORT, POLICY ADVISORY AND WORKPLACE AWARENESS SERVICES TO ORGANISATIONS &nbsp;&bull;&nbsp; 
+      OUR OBJECTIVE IS TO HELP ORGANISATIONS ESTABLISH EFFECTIVE SYSTEMS FOR PREVENTION, AWARENESS, REPORTING, REDRESSAL AND STATUTORY COMPLIANCE UNDER THE APPLICABLE POSH FRAMEWORK.
+    </div>
+  </div>
+  
+
+  <!-- NAVIGATION HEADER -->
+  <header>
+    <div class="nav-container">
+    <div class="logo"><a onclick="openTab('home')"><img src="logo_.png" alt="PoSH Advisor Logo" style="height:70px; width:auto;"></a></div>
+      <ul class="nav-links">
+        <li><a onclick="openTab('home')" id="nav-home" class="active">HOME</a></li>
+        <li><a onclick="openTab('about')" id="nav-about">ABOUT US</a></li>
+        <li><a onclick="openTab('services')" id="nav-services">POSH SERVICES</a></li>
+        <li><a onclick="openTab('training')" id="nav-training">TRAINING PROGRAMS</a></li>
+        <li><a onclick="openTab('ic-support')" id="nav-ic-support">INTERNAL COMMITTEE</a></li>
+        <li><a onclick="openTab('compliance')" id="nav-compliance">COMPLIANCE</a></li>
+        <li><a onclick="openTab('resources')" id="nav-resources">RESOURCES</a></li>
+        <li><a onclick="openTab('contact')" id="nav-contact">CONTACT US</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div id="topBtn" onclick="window.scrollTo({top:0, behavior:'smooth'})">&uarr; Top</div>
+
+  <!-- CONTAINER -->
+  <div class="container">
+
+    <!-- 1. HOME TAB -->
+    <div id="tab-home" class="tab-view active-tab">
+      <div class="hero">
+        <h1>Empowering Safer & More Respectful Workplaces</h1>
+        <p>A workplace should be a place where every individual can work with dignity, safety and respect.</p>
+        <div class="btn-group">
+          <button onclick="openTab('contact')" class="btn btn-primary">Talk to a PoSH Advisor</button>
+          <button onclick="openTab('services')" class="btn btn-secondary">Explore Our Services</button>
+        </div>
+      </div>
+
+      <!-- FRAMEWORK SERVICES INDIVIDUAL GLOWING BOXES -->
+      <div class="card glow-card-highlight" style="margin-bottom: 25px;">
+        <h3 style="text-align: center; color: var(--primary); font-size: 1.35rem; margin-bottom: 15px;">PoSH Advisor supports organisations in building a strong workplace framework through:</h3>
+        
+        <div class="framework-grid">
+          <div class="framework-box" onclick="openTopicModal('PoSH Policy & Documentation', '📜 <b>PoSH Policy & Documentation:</b><br><br>Developing, reviewing, updating workplace PoSH policies and establishing clear organizational guidelines.')">
+            <span class="icon-glow-big">📜</span>
+            <div class="framework-box-title">PoSH Policy & Documentation</div>
+          </div>
+
+          <div class="framework-box" onclick="openTopicModal('Internal Committee Support', '🏛️ <b>Internal Committee Support:</b><br><br>Guidance on IC constitution, member orientation, external members, and procedural compliance.')">
+            <span class="icon-glow-big">🏛️</span>
+            <div class="framework-box-title">Internal Committee Support</div>
+          </div>
+
+          <div class="framework-box" onclick="openTopicModal('Employee Awareness Training', '👥 <b>Employee Awareness Training:</b><br><br>Interactive sensitization programs for staff, contract employees, and workmen.')">
+            <span class="icon-glow-big">👥</span>
+            <div class="framework-box-title">Employee Awareness Training</div>
+          </div>
+
+          <div class="framework-box" onclick="openTopicModal('IC Capacity-Building Training', '🎓 <b>IC Capacity-Building Training:</b><br><br>In-depth procedural training for IC members on conducting fair and confidential inquiries.')">
+            <span class="icon-glow-big">🎓</span>
+            <div class="framework-box-title">IC Capacity-Building Training</div>
+          </div>
+
+          <div class="framework-box" onclick="openTopicModal('External Member Support', '🤝 <b>External Member Support:</b><br><br>Providing experienced External Members for IC meetings and inquiry proceedings.')">
+            <span class="icon-glow-big">🤝</span>
+            <div class="framework-box-title">External Member Support</div>
+          </div>
+
+          <div class="framework-box" onclick="openTopicModal('Complaint & Inquiry Advisory', '🔍 <b>Complaint & Inquiry Advisory:</b><br><br>Advisory support on notices, evidence, statements, interim measures, and report drafting.')">
+            <span class="icon-glow-big">🔍</span>
+            <div class="framework-box-title">Complaint & Inquiry Advisory</div>
+          </div>
+
+          <div class="framework-box" onclick="openTopicModal('PoSH Compliance Audit', '📋 <b>PoSH Compliance Audit:</b><br><br>Comprehensive evaluation of existing frameworks, records, and statutory compliance gaps.')">
+            <span class="icon-glow-big">📋</span>
+            <div class="framework-box-title">PoSH Compliance Audit</div>
+          </div>
+
+          <div class="framework-box" onclick="openTopicModal('Management & HR Advisory', '👔 <b>Management & HR Advisory:</b><br><br>Strategic guidance for senior leadership and HR teams on risk management and workplace culture.')">
+            <span class="icon-glow-big">👔</span>
+            <div class="framework-box-title">Management & HR Advisory</div>
+          </div>
+
+          <div class="framework-box" onclick="openTopicModal('Annual Compliance Support', '📊 <b>Annual Compliance Support:</b><br><br>Assistance with annual report preparation and filing before statutory authorities.')">
+            <span class="icon-glow-big">📊</span>
+            <div class="framework-box-title">Annual Compliance Support</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- OUR APPROACH -->
+      <div style="margin-top: 35px;">
+        <h2 style="text-align: center; color: var(--primary); font-size: 1.8rem; margin-bottom: 6px;">Our Approach</h2>
+        <p style="text-align: center; color: var(--secondary); font-weight: 700; font-size: 0.95rem; margin-bottom: 20px;">
+          PREVENT &rarr; EDUCATE &rarr; EMPOWER &rarr; RESPOND &rarr; COMPLY
+        </p>
+
+        <div class="approach-grid">
+          <div class="approach-card">
+            <div class="approach-icon icon-glow-big">🛡️</div>
+            <h4>1. PREVENT</h4>
+            <p>Workplace harassment prevention through effective policies and preventive measures.</p>
+          </div>
+          <div class="approach-card">
+            <div class="approach-icon icon-glow-big">📚</div>
+            <h4>2. EDUCATE</h4>
+            <p>Employees and management through practical awareness programmes.</p>
+          </div>
+          <div class="approach-card">
+            <div class="approach-icon icon-glow-big">🤝</div>
+            <h4>3. EMPOWER</h4>
+            <p>Internal Committee members with knowledge and procedural understanding.</p>
+          </div>
+          <div class="approach-card">
+            <div class="approach-icon icon-glow-big">⚖️</div>
+            <h4>4. RESPOND</h4>
+            <p>Appropriately to complaints through a structured and confidential process.</p>
+          </div>
+          <div class="approach-card">
+            <div class="approach-icon icon-glow-big">📋</div>
+            <h4>5. COMPLY</h4>
+            <p>With applicable statutory requirements and maintain appropriate records.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CALL TO ACTION -->
+      <div class="card glow-card-highlight" style="margin-top: 30px; text-align: center;">
+        <h3 style="font-size: 1.4rem; color: var(--primary);">Need PoSH Support for Your Organisation?</h3>
+        <div class="btn-group" style="margin-top: 15px;">
+          <button onclick="openTab('contact')" class="btn btn-primary">Talk to a PoSH Advisor</button>
+          <button onclick="openTab('services')" class="btn btn-secondary" style="border-color: var(--secondary); color: var(--secondary);">Explore Our Services</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. ABOUT US TAB -->
+    <div id="tab-about" class="tab-view">
+      <div class="page-header">
+        <h1>About PoSH Advisor</h1>
+        <p>A specialised professional platform focused on Prevention of Sexual Harassment at the Workplace (PoSH).</p>
+      </div>
+      
+
+      <div class="card glow-card-highlight" style="margin-bottom: 20px;">
+        <h3 style="color: var(--primary); font-size: 1.3rem;">🏢 About PoSH Advisor</h3>
+        <p style="font-size: 1.05rem; margin-top: 8px;">
+          <strong>PoSH Advisor</strong> is a specialised professional platform focused on <strong>Prevention of Sexual Harassment at the Workplace (PoSH).</strong>
+        </p>
+        <p style="margin-top: 10px;">
+          We work with organisations to develop, implement and strengthen their PoSH framework through <em>policy development, training, Internal Committee support, compliance assessment and professional advisory services.</em>
+        </p>
+        
+        <p style="margin-top: 18px; font-weight: 700; color: var(--primary); text-align: center;">
+          Our services are designed for organisations that want to establish a workplace environment based on:
+        </p>
+        <div style="margin-top:20px;">
+  <h2 style="text-align:center; font-size:28px; font-weight:800;">Meet Our <span style="color:#9333ea;">Professional Team</span></h2>
+  <p style="text-align:center; color:#64748b; margin-bottom:20px;">Experienced professionals supporting organisations in building safer, respectful and compliant workplaces.</p>
+
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
+    <div style="background:#fdf4ff; border:1px solid #f5d0fe; border-radius:18px; padding:18px;">
+      <span style="background:#9333ea; color:white; padding:4px 10px; border-radius:20px; font-size:11px; font-weight:800;">FOUNDER</span>
+      <h3 style="margin:8px 0 2px 0;">Sivasakthi Kalaimani</h3>
+      <p style="margin:0; color:#9333ea; font-weight:700; font-size:13px;">Founder & Lead PoSH Advisor</p>
+      <p style="font-size:12px; color:#555;">Master of Labour Management | Certified PoSH Advisor & Trainer</p>
+      <p style="font-size:13px; color:#444; margin-top:8px;">Founder of PoSH Advisor, specialising in workplace prevention, awareness, Internal Committee support and PoSH training.</p>
+      <div style="background:white; border-radius:10px; padding:10px; margin-top:10px; font-size:11.5px; line-height:1.7;">
+        ✅ PoSH Policy & SOP<br>✅ Employee Awareness Training<br>✅ Internal Committee Capacity Building<br>✅ External Member Support<br>✅ PoSH Compliance
+      </div>
+    </div>
+
+    <div style="background:#f0f9ff; border:1px solid #bae6fd; border-radius:18px; padding:18px;">
+      <span style="background:#2563eb; color:white; padding:4px 10px; border-radius:20px; font-size:11px; font-weight:800;">SENIOR CONSULTANT</span>
+      <h3 style="margin:8px 0 2px 0;">Ashokkumar Rathinaswamy</h3>
+      <p style="margin:0; color:#db2777; font-weight:700; font-size:13px;">Certified PoSH Advisor & Trainer</p>
+      <p style="font-size:12px; color:#555;">BA (Defence) | MLM | LLB</p>
+      <p style="font-size:13px; color:#444; margin-top:8px;">Certified PoSH Advisor & Trainer with extensive experience in Labour Law, Statutory Compliance and HR Management.</p>
+      <div style="background:white; border-radius:10px; padding:10px; margin-top:10px; font-size:11.5px; line-height:1.7;">
+        ✅ PoSH Policy & Training<br>✅ Labour Law & Statutory Compliance<br>✅ HR Advisory & Payroll<br>✅ EPF & ESI Compliance<br>✅ Compliance Audit
+      </div>
+    </div>
+  </div>
+</div>
+        <div class="value-pills">
+          <span class="value-pill"><span class="icon-glow-big" style="font-size:1.2rem; min-width:auto; height:auto; background:none;">🛡️</span> Safety</span>
+          <span class="value-pill"><span class="icon-glow-big" style="font-size:1.2rem; min-width:auto; height:auto; background:none;">👑</span> Dignity</span>
+          <span class="value-pill"><span class="icon-glow-big" style="font-size:1.2rem; min-width:auto; height:auto; background:none;">🤝</span> Respect</span>
+          <span class="value-pill"><span class="icon-glow-big" style="font-size:1.2rem; min-width:auto; height:auto; background:none;">⚖️</span> Equality</span>
+          <span class="value-pill"><span class="icon-glow-big" style="font-size:1.2rem; min-width:auto; height:auto; background:none;">💼</span> Professionalism</span>
+        </div>
+      </div>
+
+      <div class="grid-2" style="margin-bottom: 20px;">
+        <div class="card clickable-card" onclick="openTopicModal('Our Vision', '👁️ <b>Our Vision:</b><br><br>To contribute towards workplaces where every individual can work with dignity, safety, equality and respect.')">
+          <h3><span class="icon-glow-big" style="font-size:1.3rem; min-width:auto; height:auto; background:none;">👁️</span> Our Vision</h3>
+          <p>To contribute towards workplaces where every individual can work with dignity, safety, equality and respect.</p>
+          <span class="click-hint">Click to view full definition &rarr;</span>
+        </div>
+
+        <div class="card clickable-card" onclick="openTopicModal('Our Mission', '🎯 <b>Our Mission:</b><br><br>To support organisations in developing practical and sustainable PoSH systems through:<br><br>📢 <b>Awareness & Prevention:</b> Proactive workplace sensitization.<br>🎓 <b>Training & Compliance:</b> Statutory orientation.<br>🏛️ <b>Internal Committee Development:</b> Capacity building.<br>⚖️ <b>Responsible Complaint Handling:</b> Fair and confidential redressal.<br>📚 <b>Continuous Workplace Education:</b> Ongoing learning.')">
+          <h3><span class="icon-glow-big" style="font-size:1.3rem; min-width:auto; height:auto; background:none;">🎯</span> Our Mission</h3>
+          <p>To support organisations in developing practical and sustainable PoSH systems through Awareness, Prevention, Training, and Compliance...</p>
+          <span class="click-hint">Click to view all mission points &rarr;</span>
+        </div>
+      </div>
+
+      <div class="card clickable-card" onclick="openTopicModal('Our Professional Approach', '🤝 <b>Our Professional Approach:</b><br><br>PoSH matters require sensitivity, confidentiality, neutrality and procedural discipline.<br><br>Our approach focuses on helping organisations understand their responsibilities and implement appropriate systems rather than treating PoSH as merely a documentation exercise.')">
+        <h3><span class="icon-glow-big" style="font-size:1.3rem; min-width:auto; height:auto; background:none;">🤝</span> Our Professional Approach</h3>
+        <p>PoSH matters require sensitivity, confidentiality, neutrality and procedural discipline.</p>
+        <span class="click-hint">Click to view details &rarr;</span>
+      </div>
+    </div>
+
+    <!-- 3. POSH SERVICES TAB -->
+    <div id="tab-services" class="tab-view">
+      <div class="page-header">
+        <h1>Comprehensive PoSH Solutions for Organisations</h1>
+        <p>End-to-end statutory services for workplace safety and compliance.</p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card clickable-card" onclick="openTopicModal('A. PoSH Policy Formulation & Review', '📜 <b>A. PoSH Policy Formulation & Review</b><br><br>We assist organisations in:<br><br>✅ Developing PoSH Policies<br>✅ Reviewing existing policies<br>✅ Updating policies based on applicable requirements<br>✅ Preparing employee communication<br>✅ Establishing complaint mechanisms<br>✅ Supporting policy implementation')">
+          <h3><span class="icon-glow-big" style="font-size:1.3rem; min-width:auto; height:auto; background:none;">📜</span> A. PoSH Policy Formulation & Review</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px;">We assist organisations in policy formulation, review and implementation...</p>
+          <span class="click-hint">Click to view full service details &rarr;</span>
+        </div>
+
+        <div class="card clickable-card" onclick="openTopicModal('B. Internal Committee Formation', '🏛️ <b>B. Internal Committee Formation</b><br><br>Assistance relating to:<br><br>✅ Internal Committee constitution<br>✅ IC member identification<br>✅ Presiding Officer requirements<br>✅ Employee member requirements<br>✅ External Member support<br>✅ Roles and responsibilities of IC members<br>✅ IC documentation')">
+          <h3><span class="icon-glow-big" style="font-size:1.3rem; min-width:auto; height:auto; background:none;">🏛️</span> B. Internal Committee Formation</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px;">Assistance relating to constitution, member requirements, and roles...</p>
+          <span class="click-hint">Click to view full service details &rarr;</span>
+        </div>
+
+        <div class="card clickable-card" onclick="openTopicModal('C. PoSH Awareness Training', '👥 <b>C. PoSH Awareness Training</b><br><br><b>Training programmes for:</b><br>Employees, Workmen, Contract Employees, Supervisors, Managers, HR Teams, Senior Management.<br><br><b>Training Focus:</b><br>✅ Understanding workplace sexual harassment<br>✅ Appropriate workplace behaviour & prevention mechanisms<br>✅ Employee rights and responsibilities<br>✅ Reporting mechanisms & Role of Internal Committee<br>✅ Complaint redressal process & Respectful workplace culture')">
+          <h3><span class="icon-glow-big" style="font-size:1.3rem; min-width:auto; height:auto; background:none;">👥</span> C. PoSH Awareness Training</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px;">Customized sessions for employees, managers, and senior management...</p>
+          <span class="click-hint">Click to view full service details &rarr;</span>
+        </div>
+
+        <div class="card clickable-card" onclick="openTopicModal('D. Internal Committee Training', '🎓 <b>D. Internal Committee Training</b><br><br>Specialised training for IC members covering:<br><br>✅ Role and responsibilities & Confidentiality<br>✅ Handling complaints & Procedural requirements<br>✅ Principles of natural justice<br>✅ Evidence, documentation & Witness interaction<br>✅ Inquiry proceedings & Inquiry report preparation<br>✅ Recommendations and follow-up')">
+          <h3><span class="icon-glow-big" style="font-size:1.3rem; min-width:auto; height:auto; background:none;">🎓</span> D. Internal Committee Training</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px;">Specialised capacity building on inquiry proceedings and documentation...</p>
+          <span class="click-hint">Click to view full service details &rarr;</span>
+        </div>
+
+        <div class="card clickable-card" onclick="openTopicModal('E. External Member Support', '🤝 <b>E. External Member Support</b><br><br>Professional support to organisations requiring an External Member for their Internal Committee.<br><br><b>Support may include:</b><br>✅ IC meetings & Advisory support<br>✅ Complaint proceedings & Inquiry-related guidance<br>✅ Documentation review & Procedural guidance<br>✅ Awareness and capacity-building')">
+          <h3><span class="icon-glow-big" style="font-size:1.3rem; min-width:auto; height:auto; background:none;">🤝</span> E. External Member Support</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px;">Professional guidance and representation for your Internal Committee...</p>
+          <span class="click-hint">Click to view full service details &rarr;</span>
+        </div>
+
+        <div class="card clickable-card" onclick="openTopicModal('F. Complaint & Inquiry Advisory', '🔍 <b>F. Complaint & Inquiry Advisory</b><br><br>Professional procedural support to Internal Committees in relation to:<br><br>✅ Complaint documentation & Notices/communications<br>✅ Inquiry proceedings & Statements<br>✅ Evidence & Witness handling<br>✅ Interim measures & Final report preparation<br><br>🔒 All complaint-related matters are handled with appropriate confidentiality and sensitivity.')">
+          <h3><span class="icon-glow-big" style="font-size:1.3rem; min-width:auto; height:auto; background:none;">🔍</span> F. Complaint & Inquiry Advisory</h3>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px;">Procedural support for notices, evidence, statements, and inquiry reports...</p>
+          <span class="click-hint">Click to view full service details &rarr;</span>
+        </div>
+      </div>
+
+      <div class="card clickable-card glow-card-highlight" style="margin-top: 20px;" onclick="openTopicModal('G. PoSH Compliance Audit', '📋 <b>G. PoSH Compliance Audit</b><br><br>A structured assessment of the organisation framework covering:<br><br><b>IC Constitution | PoSH Policy | Training | Awareness | Complaint Mechanism | IC Meetings | Documentation | Annual Compliance | Displays | Records</b><br><br>A PoSH Compliance Gap Assessment Report can be provided with observations and recommended corrective actions.')">
+        <h3><span class="icon-glow-big" style="font-size:1.3rem; min-width:auto; height:auto; background:none;">📋</span> G. PoSH Compliance Audit</h3>
+        <p style="font-size: 0.9rem; margin-bottom: 8px;">A structured assessment of the organisation's PoSH framework...</p>
+        <span class="click-hint">Click to view full audit scope &rarr;</span>
+      </div>
+    </div>
+
+    <!-- 4. TRAINING PROGRAMS TAB -->
+    <div id="tab-training" class="tab-view">
+      <div class="page-header">
+        <h1>Professional PoSH Training for Every Level</h1>
+        <p>Customised training programmes based on employee category and organisational requirements.</p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card clickable-card" onclick="openTopicModal('Employee Awareness Programme', '👥 <b>Employee Awareness Programme</b><br><br>For employees and workmen.<br><br><b>Key areas:</b><br>🔹 What is PoSH?<br>🔹 Understanding inappropriate behaviour<br>🔹 Workplace examples<br>🔹 Rights and responsibilities<br>🔹 How to report<br>🔹 Role of the Internal Committee<br>🔹 Confidentiality<br>🔹 Respectful workplace behaviour')">
+          <h3><span class="icon-glow-big" style="font-size:1.3rem; min-width:auto; height:auto; background:none;">👥</span> Employee Awareness Programme</h3>
+          <p style="font-size: 0.82rem; color: var(--secondary); font-weight: 700; margin-bottom: 8px;">For employees and workmen.</p>
+          <span class="click-hint">Click to view full program topics &rarr;</span>
+        </div>
+
+        <div class="card clickable-card" onclick="openTopicModal('Manager & Supervisor Programme', '👔 <b>Manager & Supervisor Programme</b><br><br>Designed to help managers and supervisors understand their responsibilities when dealing with workplace concerns.<br><br><b>Focus areas:</b><br>🔹 Preventive responsibility<br>🔹 Appropriate workplace conduct<br>🔹 Responding to concerns<br>🔹 Escalation and reporting<br>🔹 Confidentiality<br>🔹 Managerial responsibilities')">
+          <h3><span class="icon-glow-big" style="font-size:1.3rem; min-width:auto; height:auto; background:none;">👔</span> Manager & Supervisor Programme</h3>
+          <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 8px;">Designed for managerial responsibilities...</p>
+          <span class="click-hint">Click to view full program topics &rarr;</span>
+        </div>
+
+        <div class="card clickable-card" onclick="openTopicModal('Internal Committee Capacity Building', '🎓 <b>Internal Committee Capacity Building</b><br><br>A detailed programme for IC members covering the practical aspects of handling complaints and conducting proceedings effectively, confidentially, and legally.')">
+          <h3><span class="icon-glow-big" style="font-size:1.3rem; min-width:auto; height:auto; background:none;">🎓</span> Internal Committee Capacity Building</h3>
+          <p style="font-size: 0.88rem;">A detailed programme for IC members covering the practical aspects of handling complaints...</p>
+          <span class="click-hint">Click to view full details &rarr;</span>
+        </div>
+
+        <div class="card clickable-card" onclick="openTopicModal('Senior Management Programme', '🏛️ <b>Senior Management Programme</b><br><br><b>Focused on:</b><br>🔹 Management responsibilities<br>🔹 Organisational culture<br>🔹 Risk prevention<br>🔹 PoSH governance<br>🔹 Compliance monitoring<br>🔹 Management support to IC')">
+          <h3><span class="icon-glow-big" style="font-size:1.3rem; min-width:auto; height:auto; background:none;">🏛️</span> Senior Management Programme</h3>
+          <p style="font-size: 0.88rem; font-weight: 700; color: var(--primary);">Focused on governance, risk prevention, and culture...</p>
+          <span class="click-hint">Click to view full program topics &rarr;</span>
+        </div>
+      </div>
+
+      <div class="card clickable-card glow-card-highlight" style="margin-top: 20px; text-align: center;" onclick="openTopicModal('Training Formats', '🌐 <b>Training Formats:</b> On-site | Online | Hybrid<br><br>Training can be customised according to:<br>🔹 Employee strength<br>🔹 Industry<br>🔹 Employee category<br>🔹 Language<br>🔹 Workplace requirements')">
+        <h3><span class="icon-glow-big" style="font-size:1.3rem; min-width:auto; height:auto; background:none;">🌐</span> Training Formats</h3>
+        <div class="value-pills" style="margin: 10px 0;">
+          <span class="value-pill">🏢 On-site</span>
+          <span class="value-pill">💻 Online</span>
+          <span class="value-pill">🔄 Hybrid</span>
+        </div>
+        <span class="click-hint">Click to view customization options &rarr;</span>
+      </div>
+    </div>
+
+    <!-- 5. INTERNAL COMMITTEE TAB -->
+    <div id="tab-ic-support" class="tab-view">
+      <div class="page-header">
+        <h1>Strengthening Your Internal Committee</h1>
+        <p>The Internal Committee plays a central role in the organisation's PoSH framework.</p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card clickable-card glow-card-highlight" onclick="openTopicModal('Our IC Support Includes', '🏛️ <b>Our IC Support Includes:</b><br><br>✅ <b>IC Formation Assistance:</b> Guidance on constitution and structure.<br>✅ <b>IC Member Orientation:</b> Foundational training on duties.<br>✅ <b>External Member Support:</b> Providing independent external members.<br>✅ <b>IC Training & Meeting Guidance:</b> Statutory and practical orientation.<br>✅ <b>Documentation & Complaint Handling Guidance:</b> Confidential recordkeeping.<br>✅ <b>Inquiry Procedure Guidance & Annual Compliance Support:</b> Fair process adherence.')">
+          <h3><span class="icon-glow-big" style="font-size:1.3rem; min-width:auto; height:auto; background:none;">🏛️</span> Our IC Support Includes</h3>
+          <ul class="icon-list" style="margin-top: 12px;">
+            <li><span class="icon-glow-big" style="font-size:1rem; min-width:auto; height:auto; background:none;">✅</span> <span><strong>IC formation assistance</strong></span></li>
+            <li><span class="icon-glow-big" style="font-size:1rem; min-width:auto; height:auto; background:none;">✅</span> <span><strong>IC member orientation</strong></span></li>
+            <li><span class="icon-glow-big" style="font-size:1rem; min-width:auto; height:auto; background:none;">✅</span> <span><strong>External Member support</strong></span></li>
+            <li><span class="icon-glow-big" style="font-size:1rem; min-width:auto; height:auto; background:none;">✅</span> <span><strong>IC training & Meeting guidance</strong></span></li>
+            <li><span class="icon-glow-big" style="font-size:1rem; min-width:auto; height:auto; background:none;">✅</span> <span><strong>Documentation & Complaint-handling guidance</strong></span></li>
+            <li><span class="icon-glow-big" style="font-size:1rem; min-width:auto; height:auto; background:none;">✅</span> <span><strong>Inquiry procedure guidance & Annual compliance support</strong></span></li>
+          </ul>
+          <span class="click-hint">Click to view complete support definition &rarr;</span>
+        </div>
+
+        <div class="card clickable-card glow-card-highlight" onclick="openTopicModal('IC Meetings & Capacity Building Guidance', '🤝 <b>IC Capacity Building & Meetings Guidance:</b><br><br>We help IC members understand their responsibilities and develop procedural knowledge required to perform their role effectively.<br><br><b>Guidance on Meetings:</b><br>✅ <b>Agenda Preparation & Minutes Documentation</b><br>✅ <b>Compliance & Training Review</b><br>✅ <b>Preventive Measures & Complaint Status Review</b>')">
+          <h3><span class="icon-glow-big" style="font-size:1.3rem; min-width:auto; height:auto; background:none;">🎓</span> IC Capacity Building & Meetings</h3>
+          <p style="font-size: 0.88rem; margin-bottom: 12px; color: var(--text-dark);">
+            We help IC members understand their responsibilities and develop procedural knowledge.
+          </p>
+          <p style="font-size: 0.88rem; font-weight: 700; color: var(--primary); margin-bottom: 8px;">Guidance on Meetings:</p>
+          <ul class="icon-list">
+            <li><span class="icon-glow-big" style="font-size:1rem; min-width:auto; height:auto; background:none;">✅</span> <span><strong>Agenda preparation & Minutes documentation</strong></span></li>
+            <li><span class="icon-glow-big" style="font-size:1rem; min-width:auto; height:auto; background:none;">✅</span> <span><strong>Compliance & Training review</strong></span></li>
+            <li><span class="icon-glow-big" style="font-size:1rem; min-width:auto; height:auto; background:none;">✅</span> <span><strong>Preventive measures & Complaint status review</strong></span></li>
+          </ul>
+          <span class="click-hint">Click to view meeting guidance details &rarr;</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6. COMPLIANCE TAB -->
+    <div id="tab-compliance" class="tab-view">
+      <div class="page-header">
+        <h1>PoSH Compliance Management</h1>
+        <p>PoSH compliance should be approached as an ongoing organisational process, not merely as an annual activity.</p>
+      </div>
+
+      <h2 style="color: var(--primary); margin-bottom: 15px; text-align: center;">Core Compliance Areas</h2>
+      
+      <div class="grid-4" style="margin-bottom: 25px;">
+        <div class="card"><h4 style="color:var(--secondary);">01 — Internal Committee</h4><p style="font-size:0.83rem; margin-top:4px;">Review of IC constitution and member requirements.</p></div>
+        <div class="card"><h4 style="color:var(--secondary);">02 — PoSH Policy</h4><p style="font-size:0.83rem; margin-top:4px;">Policy formulation, review and communication.</p></div>
+        <div class="card"><h4 style="color:var(--secondary);">03 — Employee Awareness</h4><p style="font-size:0.83rem; margin-top:4px;">Regular awareness and training programmes.</p></div>
+        <div class="card"><h4 style="color:var(--secondary);">04 — IC Training</h4><p style="font-size:0.83rem; margin-top:4px;">Capacity building for IC members.</p></div>
+        <div class="card"><h4 style="color:var(--secondary);">05 — Complaint Mechanism</h4><p style="font-size:0.83rem; margin-top:4px;">Receiving and addressing complaints.</p></div>
+        <div class="card"><h4 style="color:var(--secondary);">06 — Documentation</h4><p style="font-size:0.83rem; margin-top:4px;">Maintenance of records and proceedings.</p></div>
+        <div class="card"><h4 style="color:var(--secondary);">07 — Annual Compliance</h4><p style="font-size:0.83rem; margin-top:4px;">Assistance with annual reporting.</p></div>
+        <div class="card"><h4 style="color:var(--secondary);">08 — Workplace Communication</h4><p style="font-size:0.83rem; margin-top:4px;">Communication and awareness initiatives.</p></div>
+      </div>
+    </div>
+
+    <!-- 7. RESOURCES TAB -->
+    <div id="tab-resources" class="tab-view">
+      <div class="page-header">
+        <h1>PoSH Knowledge & Awareness Centre</h1>
+        <p>Essential statutory resources, FAQs, and guides for HRs, IC Members, and Management.</p>
+      </div>
+
+      <h2 style="color: var(--primary); margin-bottom: 12px;">Resource Categories</h2>
+      <div class="grid-3" style="margin-bottom: 30px;">
+        <div class="card clickable-card" onclick="openTopicModal('PoSH Act & Compliance', '⚖️ <b>PoSH Act & Compliance:</b> Basic information about the applicable PoSH legal framework, statutory mandates, and employer duties.')">
+          <div class="topic-icon icon-glow-big">⚖️</div>
+          <h3>PoSH Act & Compliance</h3>
+          <span class="click-hint">Click to view details &rarr;</span>
+        </div>
+
+        <div class="card clickable-card" onclick="openTopicModal('Employee Awareness', '👥 <b>Employee Awareness:</b> Practical workplace awareness articles, FAQs, and behavioral guidance for employees.')">
+          <div class="topic-icon icon-glow-big">👥</div>
+          <h3>Employee Awareness</h3>
+          <span class="click-hint">Click to view details &rarr;</span>
+        </div>
+
+        <div class="card clickable-card" onclick="openTopicModal('Internal Committee', '🏛️ <b>Internal Committee:</b> Guidance and procedural resources for IC members on handling complaints.')">
+          <div class="topic-icon icon-glow-big">🏛️</div>
+          <h3>Internal Committee</h3>
+          <span class="click-hint">Click to view details &rarr;</span>
+        </div>
+
+        <div class="card clickable-card" onclick="openTopicModal('PoSH Policy', '📜 <b>PoSH Policy:</b> Information regarding workplace PoSH policies, zero-tolerance frameworks, and SOPs.')">
+          <div class="topic-icon icon-glow-big">📜</div>
+          <h3>PoSH Policy</h3>
+          <span class="click-hint">Click to view details &rarr;</span>
+        </div>
+
+        <div class="card clickable-card" onclick="openTopicModal('Training & Awareness', '🎓 <b>Training & Awareness:</b> Training presentation decks, orientation guides, and awareness materials.')">
+          <div class="topic-icon icon-glow-big">🎓</div>
+          <h3>Training & Awareness</h3>
+          <span class="click-hint">Click to view details &rarr;</span>
+        </div>
+
+        <div class="card clickable-card" onclick="openTopicModal('Compliance Updates', '📢 <b>Compliance Updates:</b> Important legal updates, court rulings, and regulatory changes relating to PoSH.')">
+          <div class="topic-icon icon-glow-big">📢</div>
+          <h3>Compliance Updates</h3>
+          <span class="click-hint">Click to view details &rarr;</span>
+        </div>
+      </div>
+
+      <!-- SUGGESTED RESOURCES WITH DOWNLOAD LEAD FORM -->
+      <h2 style="color: var(--primary); margin-bottom: 12px;">Suggested Website Resources (Download as PDF)</h2>
+      <div class="grid-2" style="margin-bottom: 25px;">
+        <div class="card">
+          <h3>1. PoSH FAQs</h3>
+          <p style="font-size: 0.83rem; color: var(--text-muted); margin-bottom: 10px;">Frequently asked questions from Employees, HRs, Management, and IC Members.</p>
+          <button onclick="openDownloadModal('PoSH FAQs')" class="btn btn-primary" style="font-size: 0.82rem; padding: 6px 14px;">Download as PDF</button>
+        </div>
+        <div class="card">
+          <h3>2. PoSH Compliance Checklist</h3>
+          <p style="font-size: 0.83rem; color: var(--text-muted); margin-bottom: 10px;">Checklist for evaluating statutory compliance across organizational functions.</p>
+          <button onclick="openDownloadModal('PoSH Compliance Checklist')" class="btn btn-primary" style="font-size: 0.82rem; padding: 6px 14px;">Download as PDF</button>
+        </div>
+        <div class="card">
+          <h3>3. IC Responsibilities</h3>
+          <p style="font-size: 0.83rem; color: var(--text-muted); margin-bottom: 10px;">Role descriptions and procedural duties for Internal Committee members.</p>
+          <button onclick="openDownloadModal('IC Responsibilities Guide')" class="btn btn-primary" style="font-size: 0.82rem; padding: 6px 14px;">Download as PDF</button>
+        </div>
+        <div class="card">
+          <h3>4. Employee Awareness Guide</h3>
+          <p style="font-size: 0.83rem; color: var(--text-muted); margin-bottom: 10px;">Workplace handbook for staff on safety, dignity, and complaint reporting.</p>
+          <button onclick="openDownloadModal('Employee Awareness Guide')" class="btn btn-primary" style="font-size: 0.82rem; padding: 6px 14px;">Download as PDF</button>
+        </div>
+        <div class="card">
+          <h3>5. PoSH Policy Checklist</h3>
+          <p style="font-size: 0.83rem; color: var(--text-muted); margin-bottom: 10px;">Audit guide for reviewing completeness of your corporate PoSH policy.</p>
+          <button onclick="openDownloadModal('PoSH Policy Checklist')" class="btn btn-primary" style="font-size: 0.82rem; padding: 6px 14px;">Download as PDF</button>
+        </div>
+        <div class="card">
+          <h3>6. Annual Compliance Checklist</h3>
+          <p style="font-size: 0.83rem; color: var(--text-muted); margin-bottom: 10px;">Step-by-step guide for annual report preparation and submission.</p>
+          <button onclick="openDownloadModal('Annual Compliance Checklist')" class="btn btn-primary" style="font-size: 0.82rem; padding: 6px 14px;">Download as PDF</button>
+        </div>
+        <div class="card">
+          <h3>7. Training Resources</h3>
+          <p style="font-size: 0.83rem; color: var(--text-muted); margin-bottom: 10px;">Awareness presentation decks and workshop reference materials.</p>
+          <button onclick="openDownloadModal('Training Resource Deck')" class="btn btn-primary" style="font-size: 0.82rem; padding: 6px 14px;">Download as PDF</button>
+        </div>
+        <div class="card">
+          <h3>8. Articles & Updates</h3>
+          <p style="font-size: 0.83rem; color: var(--text-muted); margin-bottom: 10px;">Legal insights, case studies, and compliance advisories.</p>
+          <button onclick="openDownloadModal('Articles & Updates Compendium')" class="btn btn-primary" style="font-size: 0.82rem; padding: 6px 14px;">Download as PDF</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 8. CONTACT US TAB -->
+    <div id="tab-contact" class="tab-view">
+      <div class="page-header">
+        <h1>Let's Build a Safer & More Respectful Workplace</h1>
+        <p>Whether you are establishing your IC, reviewing policy, or conducting training, we are here to support.</p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card glow-card-highlight">
+          <h3>Contact PoSH Advisor</h3>
+          <p style="margin-top:10px;"><strong>Firm:</strong> M5 HR & Legal Compliance Management Solutions</p>
+          <p style="margin-top:8px;"><strong>Website:</strong> www.poshadvisor.in</p>
+          <p style="margin-top:8px;"><strong>Email:</strong> official@poshadvisor.in</p>
+
+          <div style="margin-top:12px; padding: 12px; background: #e0f2fe; border-radius: 8px; border: 1px solid var(--border);">
+            <strong style="color: var(--primary);">Phone Numbers:</strong>
+            <ul style="list-style: none; margin-top: 6px;">
+              <li>📞 +91 90870 01308</li>
+              <li>📞 +91 98848 41608</li>
+              <li>📞 +91 90870 01216</li>
+            </ul>
+          </div>
+
+          <p style="margin-top:12px;"><strong>Location:</strong> Chennai, Tamil Nadu, India</p>
+        </div>
+
+        <div class="card glow-card-highlight">
+          <h3>Enquiry Form</h3>
+          <form onsubmit="handleContactSubmit(event)">
+            <div class="form-group"><label>Name *</label><input type="text" required placeholder="Your Name"></div>
+            <div class="form-group"><label>Company / Organisation *</label><input type="text" required placeholder="Company Name"></div>
+            <div class="form-group"><label>Designation</label><input type="text" placeholder="Designation"></div>
+            <div class="form-group"><label>Email *</label><input type="email" required placeholder="Email Address"></div>
+            <div class="form-group"><label>Mobile Number *</label><input type="tel" required placeholder="Mobile Number"></div>
+            <div class="form-group"><label>Number of Employees</label><input type="number" placeholder="e.g. 50"></div>
+            <div class="form-group"><label>Service Required</label><input type="text" placeholder="e.g. Training / Policy / IC Support"></div>
+            <div class="form-group"><label>Message</label><textarea rows="3" placeholder="Your Message"></textarea></div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Enquiry</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- DEFINITION MODAL -->
+  <div id="topicModal" class="modal-overlay">
+    <div class="modal-content">
+      <span class="modal-close" onclick="closeTopicModal()">&times;</span>
+      <h2 id="topicModalTitle" style="color: var(--primary); font-size: 1.35rem; margin-bottom: 12px;"></h2>
+      <div id="topicModalDesc" style="color: var(--text-dark); font-size: 0.95rem; line-height: 1.6;"></div>
+    </div>
+  </div>
+
+  <!-- PDF DOWNLOAD LEAD CAPTURE MODAL -->
+  <div id="downloadModal" class="modal-overlay">
+    <div class="modal-content">
+      <span class="modal-close" onclick="closeDownloadModal()">&times;</span>
+      <h2 style="color: var(--primary); font-size: 1.35rem; text-align: center; margin-bottom: 4px;">Download Resource PDF</h2>
+      <p id="modalResourceTitle" style="text-align: center; color: var(--secondary); font-weight: 700; font-size: 0.9rem; margin-bottom: 15px;"></p>
+      
+      <form onsubmit="handleResourceDownloadSubmit(event)">
+        <input type="hidden" id="selectedResourceTopic">
+        <div class="form-group"><label>Full Name *</label><input type="text" id="dlName" required placeholder="Your Name"></div>
+        <div class="form-group"><label>Company / Organisation *</label><input type="text" id="dlCompany" required placeholder="Company Name"></div>
+        <div class="form-group"><label>Work Email Address *</label><input type="email" id="dlEmail" required placeholder="name@company.com"></div>
+        <div class="form-group"><label>Mobile Number *</label><input type="tel" id="dlPhone" required placeholder="Mobile Number"></div>
+        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 8px;">Submit & Send Request</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 PoSH Advisor &bull; M5 HR & Legal Compliance Management Solutions. All Rights Reserved. Chennai, Tamil Nadu, India.</p>
+  </footer>
+
+  <script>
+    // Tab Navigation
+    function openTab(tabName) {
+      document.querySelectorAll('.tab-view').forEach(tab => {
+        tab.classList.remove('active-tab');
+      });
+      document.querySelectorAll('.nav-links a').forEach(link => {
+        link.classList.remove('active');
+      });
+
+      const selectedTab = document.getElementById('tab-' + tabName);
+      if (selectedTab) selectedTab.classList.add('active-tab');
+      
+      const activeNav = document.getElementById('nav-' + tabName);
+      if (activeNav) activeNav.classList.add('active');
+
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+
+    // Topic Definition Modal Functions
+    function openTopicModal(title, desc) {
+      document.getElementById('topicModalTitle').innerText = title;
+      document.getElementById('topicModalDesc').innerHTML = desc;
+      document.getElementById('topicModal').style.display = 'flex';
+    }
+    function closeTopicModal() {
+      document.getElementById('topicModal').style.display = 'none';
+    }
+
+    // Download Modal Functions
+    function openDownloadModal(topicTitle) {
+      document.getElementById('modalResourceTitle').innerText = topicTitle;
+      document.getElementById('selectedResourceTopic').value = topicTitle;
+      document.getElementById('downloadModal').style.display = 'flex';
+    }
+    function closeDownloadModal() {
+      document.getElementById('downloadModal').style.display = 'none';
+    }
+    function handleResourceDownloadSubmit(e) {
+      e.preventDefault();
+      const topic = document.getElementById('selectedResourceTopic').value;
+      const name = document.getElementById('dlName').value;
+      const email = document.getElementById('dlEmail').value;
+      
+      alert(`Thank you, ${name}! Your request for "${topic}" has been logged. An automated notification has been sent to official@poshadvisor.in and a copy sent to ${email}.`);
+      
+      e.target.reset();
+      closeDownloadModal();
+    }
+
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      alert("Enquiry submitted successfully!");
+      e.target.reset();
+    }
+
+    window.onclick = function(event) {
+      const topicModal = document.getElementById('topicModal');
+      const dlModal = document.getElementById('downloadModal');
+      if (event.target == topicModal) topicModal.style.display = "none";
+      if (event.target == dlModal) dlModal.style.display = "none";
+    }
+  </script>
+</body>
+</html>
